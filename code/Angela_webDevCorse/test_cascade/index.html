@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attribute Selector Example</title>
+    <style>
+        /* Select all elements with class 'highlight' */
+        .highlight {
+            color: red;
+        }
+
+        /* Select input elements of type 'text' */
+        input[type="text"] {
+            background-color: lightyellow;
+        }
+
+        /* Select the anchor tag with href starting with 'https' */
+        a[href^="https"] {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlight">This is a highlighted text.</p>
+    <input type="text" placeholder="This is a text field." />
+    <a href="https://www.openai.com">Visit OpenAI</a>
+</body>
+</html>

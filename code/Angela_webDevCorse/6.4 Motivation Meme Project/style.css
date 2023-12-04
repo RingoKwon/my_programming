@@ -1,0 +1,28 @@
+h1{
+    /* color: red; */
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 28px;
+}
+h1 p {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: .5em;
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+div{
+    /* border: 1px solid white; */
+    padding: 10px;
+    margin: 100px;
+    text-align: center;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+}
